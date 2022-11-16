@@ -42,6 +42,8 @@ In the event it is not working, feel free to modify any of the files to fix but 
   + add properties to the server to match the above inputs so it saves properly
   + apply style to page
 
+  + (extra credit) add one feature to improve user flow
+
 It is not important what types of inputs you add, just that it is reflected in the form, table, and being communicated to the api properly. This excercise is more focused on the front-end, so I tried to make it easy to modify the backend user object. As far as styling, a general layout was applied to have the page better understood for first view. Feel free to change anything and everything about the styles.
 
 - CLOSING -
