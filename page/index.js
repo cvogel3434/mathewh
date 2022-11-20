@@ -22,7 +22,8 @@ var userheaders = { //headers to match user object (auser)
   first:'First',
   last:'Last',
   phone:'Phone',
-  job:'Job'
+  job:'Job',
+  compensation:'Compensation'
 }
 
 var usertable = document.createElement('div');

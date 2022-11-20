@@ -35,7 +35,8 @@ export class UserForm extends VHCform{
       first:'user-first',
       last:'user-last',
       phone:'user-phone',
-      job:'user-job'
+      job:'user-job',
+      compensation:'user-compensation'
     },
     actions:{
       save:'form-update',
@@ -54,6 +55,7 @@ export class UserForm extends VHCform{
         <div>Last Name</div><input class="${this.dom.inputs.last}">
         <div>Phone #</div><input class="${this.dom.inputs.phone}"/>
         <div>Job Title</div><input class="${this.dom.inputs.job}"/>
+        <div>Compensation</div><input class="${this.dom.inputs.compensation}"/>
       </div>
       <div class="form-action-bar">
         <img src='./assets/disk.png' class="form-button ${this.dom.actions.save}" title="add"/>
