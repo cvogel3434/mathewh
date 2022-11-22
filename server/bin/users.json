@@ -1,3 +1,1 @@
-[{"uname":"SMIJO","first":"John","last":"Smith","phone":"314-549-3844","job":"Manager", "compensation":"600"},
-{"uname":"RYATI","first":"Tim","last":"Ryan","phone":"314-549-3889","job":"Dispatch", "compensation":"900"},
-{"uname":"MAHJE","first":"Jeff","last":"Mahon","phone":"314-549-5084","job":"Estimator", "compensation":"200"}]
+[{"uname":"SMIJO","first":"John","last":"Smith","phone":"314-549-3844","job":"Manager","compensation":"600"},{"uname":"RYATI","first":"Tim","last":"Ryan","phone":"314-549-3889","job":"Dispatch","compensation":"900"},{"uname":"MAHJE","first":"Jeff","last":"Mahon","phone":"314-549-5084","job":"Estimator","compensation":"600"},{"uname":"DOEJO","first":"Joe","last":"Joe","phone":"314-862-2943","job":"Head of HR","compensation":"500"},{"uname":"DOEJA","first":"Jane","last":"Doe","phone":"314-624-3049","job":"Accountant","compensation":"300"}]
