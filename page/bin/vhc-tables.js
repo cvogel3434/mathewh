@@ -53,6 +53,23 @@ var BUILDdistable=({list,cont,header=false,rowclass=false,map=(obj)=>{return obj
     cont.lastChild.className = "vg-gentable-row";
     cont.lastChild.addEventListener('click',(ele)=>{
       eve(list[x]);
+
+      //Code for hiding and showing popup
+      var popup = document.getElementById("form-popup");
+      if (popup) {
+        //If not already visible, set to visible
+        if(window.getComputedStyle(popup).visibility == "visible"){
+          console.log("Element is visible.");
+        } else {
+          popup.classList.toggle("show");
+          console.log("Element is hidden.");
+        }
+
+        popup.style.top = ele.clientY - 400 + 'px';
+        popup.style.left = ele.clientX - 25 + 'px';
+      } else {
+        console.log("No popup found")
+      }
     });
   }
 }
