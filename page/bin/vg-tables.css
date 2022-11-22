@@ -1,10 +1,20 @@
-.vg-gentable{
+/*Table Base Styling*/
+.vg-gentable {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 3px 6px 0 var(--shadow-color), 0 4px 15px 0 var(--shadow-color);
 }
+
+/*Table Row Styling*/
 .vg-gentable>div{
     display:flex;
-    min-width:100%;
     width:fit-content;
-    padding: 3px;
+    padding: 10px;
+}
+
+.vg-gentable-row{
     border-bottom: 1px solid var(--background-dark);
 }
 
@@ -20,12 +30,20 @@
     background-color: var(--highlight-color);
     cursor: pointer;
 }
+
+/*Table Header Styling*/
 .vg-gentable>.vg-gentable-header:hover{
-    background-color: lightgrey;
+    background-color: var(--background-color);
     cursor:default;
 }
 .vg-gentable-header{
     position: sticky;
     top: 0;
-    background-color: lightgrey;
+    background-color: var(--background-color);
+    color: var(--main-text-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 4px 2px -2px var(--shadow-color), 0 4px 2px -2px var(--shadow-color);
 }

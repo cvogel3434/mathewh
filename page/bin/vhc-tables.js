@@ -50,6 +50,7 @@ var BUILDdistable=({list,cont,header=false,rowclass=false,map=(obj)=>{return obj
   for(let x=1;x<list.length;x++){// financing
     cont.appendChild(SETrowFROMobject(map(list[x]),false));
     if(rowclass){cont.lastChild.classList.add(rowclass)}
+    cont.lastChild.className = "vg-gentable-row";
     cont.lastChild.addEventListener('click',(ele)=>{
       eve(list[x]);
     });
