@@ -11,7 +11,8 @@ var auser=(au={})=>{
     first:au.first||'',
     last:au.last||'',
     phone:au.phone||'',
-    job:au.job||''
+    job:au.job||'',
+    compensation:au.compensation||''
   }
 }
 
