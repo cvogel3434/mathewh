@@ -14,10 +14,16 @@
         --main-text-color: #102742;
         --shadow-color: rgba(0, 0, 0, 0.2);
       }
+      .grid-container {
+        padding: 2.5em;
+      }
+      .grid-item {
+        padding-top: 1em;
+        padding-bottom: 1em;
+      }
       #user-cont{
         display: grid;
         grid-template-columns: 1fr 2fr;
-        padding: 2.5em;
       }
       .form-action-bar{
         display:flex;
@@ -31,10 +37,48 @@
         font-size: large;
         box-shadow: 0 4px 8px 0 var(--shadow-color), 0 6px 20px 0 var(--shadow-color);
       }
+      .userformpopupcont {
+        position: relative;
+        display: inline-flex;
+      }
+      .userformpopupcont .userformpopup {
+        visibility: hidden;
+        width: 15em;
+        height:20em;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 8px 0;
+        position: absolute;
+        z-index: 1;
+        top: 125%;
+        left: 50%;
+      }
+      .userformpopupcont .show {
+        visibility: visible;
+      }
+      .create-new-button {
+        height: 2.5em;
+        width: 10em;
+        background-color: var(--background-color);
+        color: var(--main-text-color);
+        border-radius: 5px;
+        border-color: var(--background-color);
+        box-shadow: 0 4px 8px 0 var(--shadow-color), 0 6px 20px 0 var(--shadow-color);
+      }
+      .grid-container {
+        display: grid;
+        column-gap: 50px;
+      }
     </style>
   </head>
   <body>
     <div class = "title-bar">User Table</div>
+    <div class="grid-container">
+      <div class = "grid-item" id = "gridone"></div>
+      <div class = "grid-item" id = "gridtwo"></div>
+      <div class = "grid-item" id = "gridthree"></div>
+    </div>
   </body>
   <script type="module" src="index.js"></script>
 </html>
