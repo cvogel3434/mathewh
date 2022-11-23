@@ -65,7 +65,7 @@ var BUILDdistable=({list,cont,header=false,rowclass=false,map=(obj)=>{return obj
           console.log("Element is hidden.");
         }
 
-        popup.style.top = ele.clientY - 400 + 'px';
+        popup.style.top = ele.clientY - 495 + 'px';
         popup.style.left = ele.clientX - 25 + 'px';
       } else {
         console.log("No popup found")
